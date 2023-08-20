@@ -1,0 +1,49 @@
+body{
+    background-image: url(../images/img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    padding: 30px 40px;
+}
+.navbar i{
+    padding: 16px 20px;
+}
+
+.navbar .nav{
+    float: right;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding: 16px 20px;
+    font-size: 16px;
+}
+.navbar a:hover{
+    color: rgb(217, 172, 49);
+}
+
+.container{
+    position: relative;
+    margin: auto;
+    width: 800px;
+    color: white;
+    top: 200px;
+
+}
+.container h1{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: auto;
+}
+.container p{
+    text-align: justify;
+    font-size: 12px;
+    text-align: center;
+}
+
